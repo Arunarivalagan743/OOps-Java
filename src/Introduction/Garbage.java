@@ -1,5 +1,7 @@
 package Introduction;
 
+import java.util.Arrays;
+
 class GarbageColl {
     String name;
 

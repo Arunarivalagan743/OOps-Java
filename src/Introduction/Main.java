@@ -5,9 +5,9 @@ class Student {
     String name;
     float marks;
 
-    void greet() {
-        System.out.println("hello" + this.name);
-    }
+//    void greet() {
+//        System.out.println("hello" + this.name);
+//    }
 
     Student() {
         this.name = "arun";
@@ -30,7 +30,9 @@ class Student {
 }
 
 public class Main {
-
+    public static void greet() {
+        System.out.println("Hello from Introduction package");
+    }
     public static void main(String[] args) {
         Student s1; //decalring to create reference to in  the stack to the object as default null
 //        s1 = new Student();

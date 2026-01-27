@@ -3,7 +3,8 @@ package Singleton;
 class Singleton {
    private  static Singleton  instance;
 
-     private Singleton() {
+
+    private Singleton() {
          System.out.println("object created for firsttime");
      }
      public  static Singleton getInstance()

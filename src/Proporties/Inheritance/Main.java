@@ -1,5 +1,7 @@
 package Proporties.Inheritance;
 
+import Access.Access;
+
 public class Main {
     public static void main(String[] args) {
 //        Box b1 =  new Box(6,4,3);
@@ -12,6 +14,9 @@ public class Main {
         BoxWeight b2 =  new BoxWeight(b1,988);
         System.out.println(b2.weight);
         b2.parent();
-        BoxSize b3 = new BoxSize(1,2,3,4,5); // multi level inheritence
+        BoxSize b3 = new BoxSize(1,2,3,4,5);
+        // multi level inheritence
+//         Access pr  = new Access(89,"arun");
+//        System.out.println(pr.n);..protected
     }
 }

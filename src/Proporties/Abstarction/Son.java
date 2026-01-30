@@ -1,4 +1,4 @@
-package Abstarction;
+package Proporties.Abstarction;
 
 public class Son extends Carrer {
     public Son(int a) {

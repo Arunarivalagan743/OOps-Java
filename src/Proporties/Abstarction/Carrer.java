@@ -1,4 +1,4 @@
-package Abstarction;
+package Proporties.Abstarction;
 
 public  abstract  class Carrer {
 

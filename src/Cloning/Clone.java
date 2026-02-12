@@ -13,11 +13,12 @@ public class Clone implements  Cloneable {
     public  Object clone() throws CloneNotSupportedException {
         Clone b =  (Clone) super.clone();
         b.arr  =  new int[b.arr.length];
-
+// shallow copy  +  array clone to bject clone
        for(int i  =0;i<b.arr.length;i++)
        {
            b.arr[i] =  this.arr[i];
        }
        return  b;
+//        return  super.clone(); //shallow copy
     }
 }
